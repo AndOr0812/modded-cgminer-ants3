@@ -1,7 +1,9 @@
 ./build.sh
 then
+
 login into antminer with putty
 cd /
+/etc/rc.d/S99cgminer stop
 wget http://wareck.free.fr/antminer/cgminer-ants3-mod.tgz
 tar xvf cgminer-ants3-mod.tgz
 rm cgminer-ants3-mod.tgz
