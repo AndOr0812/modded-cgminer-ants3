@@ -21,7 +21,26 @@ cd /antminer
 mput cgminer-ants3-mod.tgz
 quit
 EOF
+sleep 1
 
+ftp -nv ftpperso.free.fr <<EOF
+user wareck zorn69
+bin
+passive
+cd /antminer
+mput cgminer-origin.tgz
+quit
+EOF
+sleep 1
+
+ftp -nv ftpperso.free.fr <<EOF
+user wareck zorn69
+bin
+passive
+cd /antminer
+mput cgminer-nicehash.tgz
+quit
+EOF
 sleep 1
 
 ftp -nv ftpperso.free.fr <<EOF
