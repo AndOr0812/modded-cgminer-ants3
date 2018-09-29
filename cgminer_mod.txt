@@ -1,0 +1,10 @@
+./build.sh
+then
+login into antminer with putty
+cd /
+wget http://wareck.free.fr/antminer/cgminer-ants3-mod.tgz
+tar xvf cgminer-ants3-mod.tgz
+rm cgminer-ants3-mod.tgz
+cgset
+sync
+reboot
